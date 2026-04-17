@@ -1,8 +1,6 @@
 # SpaceX-Data-Analysis-SQL
+
 SpaceX SQL Data Exploration
-# Create README.md file
-readme_content = """
-# SpaceX-Data-Analysis-SQL
 
 A SQL-based exploratory data analysis of SpaceX Falcon 9 launch records using SQLite.
 
@@ -31,11 +29,7 @@ The analysis utilizes a CSV dataset containing:
 * **Landing_Outcome**: Result of the first-stage landing attempt.
 
 ## How to Run
-1.  Install dependencies: `pip install ipython-sql pandas`.
-2.  Open the `.ipynb` notebook.
-3.  Load the data into SQLite using the provided Python connection script.
-4.  Execute the SQL cells to view the analysis results.
-"""
-
-with open("README.md", "w") as f:
-    f.write(readme_content.strip())sudo 
+1. Install dependencies: `pip install ipython-sql pandas`.
+2. Open the `.ipynb` notebook.
+3. Load the data into SQLite using the provided Python connection script.
+4. Execute the SQL cells to view the analysis results.
